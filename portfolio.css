@@ -72,7 +72,7 @@ body{
 }
 #hh:hover:after{
     content: attr(dat);
-    font-size: 50px;
+    font-size: 100px;
 }
 .image1{
     background-image: url("desk.jpg");
