@@ -16,7 +16,7 @@ body{
     font-size: 130px;
     color:whitesmoke;
     z-index: 2;
-    font-family: Comic Sans MS;
+    font-family: Sans Forgetica,Comic Sans MS, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navback{
     position: fixed;
