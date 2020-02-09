@@ -3,47 +3,88 @@
     padding:0;
 
 }
+@font-face {
+    font-family: 'Sans Forgetica Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sans Forgetica Regular'), url('SansForgetica-Regular.woff') format('woff');
+}
 body{
-    background-color: rgb(47, 46, 46);
-    height:2000px;
+    background-color: rgb(82, 82, 82);
+    height:300vh;
     width:100%;
+    font-family: Sans Forgetica Regular;
 }
 .name{
     position: absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    font-size: 130px;
-    color:whitesmoke;
+    font-size: 80px;
+    color:rgb(0, 0, 0);
     z-index: 2;
-    font-family: Sans Forgetica,Comic Sans MS, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navigation{
+    position: fixed;
+    overflow:hidden;
+    z-index: 5;
+    right:0;
+    
+    
 }
 .navback{
-    position: fixed;
-    background-color: rgb(12, 12, 12);
-    opacity:0.4;
+    position:fixed;
+    top:0;
     width:100%;
     height:50px;
-    top:0;
+    background-color: rgb(47, 46, 46);
+    opacity:0.5;
     z-index: 1;
 }
-.navigation{
-    right:0;
-    color:white; 
-    position: fixed;
-}
 .navigation a{
+    letter-spacing: 5px;
     position: relative;
-    top:10px;
-    margin:10px;
+    padding: 50px;
+    color: aliceblue;
+    cursor: pointer;
+   
+  
+  
+}
+
+.navigation a:hover{
+    font-size: 30px;
+    
+    
+}
+
+.sec{
+    background-color: rgb(0, 0, 0);
+    height:100vh;
+    width:100%;
+    position: absolute;
+    top:100vh;
+}
+#hh:hover{
+    font-size: 0;
+}
+#hh:hover:after{
+    content: attr(dat);
+    font-size: 50px;
 }
 .image1{
-    position:fixed;
+    background-image: url("desk.jpg");
+    background-size: cover;
+    position:absolute;
     width:50%;
+    height:100vh;
     overflow: hidden;
-    opacity:0.8;
+    opacity:0.9;
     width: 50%;
     left:0;
     top:0;
+    
 
 }
