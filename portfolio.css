@@ -66,7 +66,7 @@ body{
     height:100vh;
     width:100%;
     position: absolute;
-    top:200vh;
+    top:100vh;
     background-image: url("keyboard.jpg");
     background-size: cover;
     
