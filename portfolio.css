@@ -65,7 +65,10 @@ body{
     height:100vh;
     width:100%;
     position: absolute;
-    top:100vh;
+    top:200vh;
+    background-image: url("keyboard.jpg");
+    background-size: cover;
+    
 }
 #hh:hover{
     font-size: 0;
@@ -87,4 +90,35 @@ body{
     top:0;
     
 
+}
+.interests{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    font-size: 50px;
+    color: rgb(61, 77, 77);
+    letter-spacing: 10px;
+    
+}
+.interests h1{
+    position:absolute;
+    right:0;
+    
+    top:0;
+
+    
+}
+.interests ul{
+    position:absolute;
+    left:1cm;
+    bottom:0;
+    font-size: 40px;
+    letter-spacing: 0;
+    color: rgb(216, 214, 207);
+    
+}
+.interests li:hover{
+    font-size: 45px;
 }
