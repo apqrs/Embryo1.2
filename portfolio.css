@@ -33,12 +33,15 @@ body{
     position:absolute;
     top:65%;
     grid-template-columns: 1fr 1fr 1fr;
-    color: rgb(133, 67, 187);
+    color:rgb(144, 43, 202);
     text-align: center;
-    animation-delay: 3s;
-    font-size: 30px;
+    font-size: 20px;
+   
     
     
+}
+.title h1{
+    animation-duration: 2s;
 }
 
 
