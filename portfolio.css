@@ -33,14 +33,14 @@ body{
     position:absolute;
     top:65%;
     grid-template-columns: 1fr 1fr 1fr;
-    color: rgb(27, 12, 226);
-    
-    
-}
-.title {
+    color: rgb(133, 67, 187);
     text-align: center;
     animation-delay: 3s;
+    font-size: 30px;
+    
+    
 }
+
 
 .navigation{
     position: fixed;
